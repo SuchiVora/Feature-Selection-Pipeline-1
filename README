@@ -38,6 +38,7 @@ Enter the choice to select which feature selection algorithm you would like to r
 
 Once the feature selection phase is completed, FSP by default runs the classifiers such as SVM, NB, Random Forest, J4.8, KNN on the dataset. For the classification phase, the classifiers use the optimal features selected by the feature selection algorithm for the given dataset.FSP provides perfromance measurements such as Accuracy, Precision, Recall and F-measure for each classifier. These performance measures are shown as output on the command line interface as well as written to an output file stored in the /results folder. All the performnace measures for each classifier are reported using 10-fold cross vlaidation.
 
+
 DATA FILE FORMAT:
 
 The jar accepts the csv file.
